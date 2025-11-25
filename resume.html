@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemavathy S - Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #eef1f7;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Navigation */
+        nav {
+            background: #0f1c2e;
+            padding: 15px 30px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        nav .logo {
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        nav ul li a {
+            color: #fff;
+            font-weight: 500;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #4ba3ff;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #0f1c2e, #355c9c);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Sections */
+        .section {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #0f1c2e;
+            border-left: 6px solid #355c9c;
+            padding-left: 15px;
+            font-weight: bold;
+        }
+        .card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-top: 15px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #0f1c2e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Hemavathy S</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Hemavathy S</h1>
+        <p>MCA Final-Year Student | Machine Learning Enthusiast | Developer</p>
+    </header>
+
+    <div class="section" id="contact">
+        <h2>Contact Information</h2>
+        <div class="card">
+            <p><strong>Email:</strong> <a href="mailto:shemavathy20@gmail.com">shemavathy20@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/hemavathy-s-38275b292" target="_blank">linkedin.com/in/hemavathy-s-38275b292</a></p>
+            <p><strong>Location:</strong> Chennai, India</p>
+        </div>
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                A highly motivated MCA final-year student with hands-on experience in Machine Learning,
+                Data Preprocessing, Predictive Modeling, and Web Application Development.
+                Passionate about building meaningful tech solutions with clean design and strong logic.
+            </p>
+        </div>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="card">
+            <ul>
+                <li>Machine Learning – Regression, Classification, Model Evaluation</li>
+                <li>Data Preprocessing & Feature Engineering</li>
+                <li>Python, NumPy, Pandas, Scikit-learn</li>
+                <li>Streamlit Full-Stack ML App Development</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Java – OOP, Classes, Inheritance, String Handling</li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="section" id="experience">
+        <h2>Internship Experience</h2>
+        <div class="card">
+            <h3>Machine Learning Intern – Virtual Tech Services (May 2025 – June 2025)</h3>
+            <ul>
+                <li>Developed ML models for Diabetes, Heart Disease & Parkinson’s prediction.</li>
+                <li>Performed end-to-end data preprocessing, visualization, and scaling.</li>
+                <li>Built a Streamlit-based Health Assistant ML web application.</li>
+                <li>Worked on Apple Quality Prediction using KNN & Logistic Regression.</li>
+                <li>Improved model accuracy using hyperparameter tuning and testing.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <ul>
+                <li><strong>Health Assistant System:</strong> Predicts diseases using ML models with a custom UI.</li>
+                <li><strong>Food Genie Recommendation System:</strong> Suggests food using ML algorithms.</li>
+                <li><strong>Home Appliances E-Commerce App:</strong> Built using VB 6.0 with admin & user roles.</li>
+                <li><strong>Password Cracking Tool:</strong> Used Hydra & John the Ripper for ethical lab simulation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Hemavathy S | Portfolio Website
+    </footer>
+
+</body>
+</html>
